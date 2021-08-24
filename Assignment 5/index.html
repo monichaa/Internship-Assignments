@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+       // variable
+      
+       var, const, let
+       var x; //variable
+       var a = "Monday";
+        var b = 12;
+        var c = 12.12;
+        var c1 = 111111111111122222222225454878796664646565;
+        var d = true;
+        var d = false;
+        var e = null;
+        var f = undefined;
+        
+        // data types
+        
+        var age =23; //numbers
+        var a="monday"; //string
+        var c=true; // boolean true or false statement
+        var c1=111111111111111111; //bigint
+        var e=null; //null
+        var f=undefined; //undefined
+        var name={firstname:"monisha", lastname:"d"}//objects
+        var b=1+2+3 //operators or symbols
+
+        //prompt->something to take answer from the user
+        var name=prompt("enter your name:");
+
+        //confirm->it shows a model window with a question and answer
+        result=confirm(question);
+        class=confirm("are you in web design session");
+
+        //type conversion-> a string will convert to a number
+        alert("6" / "2");
+
+        //alert->it displays an alert message
+        alert("hello");
+
+        //conditions-> if else statements
+        if (year == 2021) {
+            alert( "That's correct!" );
+            alert( "You're so smart!" );
+
+           // if (condition) {
+// what to do if condition is met
+} else {
+// what to do if condition is not met
+}
+        //logical operators
+        AND OR NOT(&&, ||, !)
+
+        //AND
+        //true && false; ->false
+        const a = true, b = false;
+        const c = 4; 
+           console.log(a && a); // true
+           console.log(a && b);  // false
+           console.log((c > 2) && (c < 2)); // false
+
+        //OR
+        //true || false; ->true
+        const a = true, b = false, c = 4;
+         console.log(a || b); // true
+         console.log(b || b); // false
+         console.log((c>2) || (c<2)); // true
+
+        //NOT
+       // !true; ->false
+       const a = true, b = false;
+       console.log(!a); // false
+       console.log(!b); // true
+
+        //loops->it means to execute same thing multiple times
+        //for->The most common way to create a loop in Javascript
+        //while->Sets up conditions under which a loop executes
+        //do while->Similartothewhile loop, however, it executes at least once and performs a check at the end to see if the condition is met to execute again
+        //break->Used to stop and exit the cycle at certain conditions
+        //continue->Skip parts of the cycle if certain conditions are met
+
+         // while
+         let i = 0;
+        while (i < 3) { // shows 0, then 1, then 2
+            alert( i );
+            i++;
+        }
+
+        // for
+        for (let i = 0; i < 3; i++) { 
+           alert(i);
+        }
+        //do
+        do{
+            //statements
+        }while(condition test);
+
+        var text="";
+        var i=0;
+        do{
+            text +="the number is " +i;
+            i++;
+        }
+        while(i<5);
+
+        // function->to call something multiple times 
+        let sum = function(a, b) {
+            return a + b;
+        };
+
+        // arrow funtion->it reduces the effort of writing return and alter 
+        let sum = (a, b) => a + b;  
+
+
+    </script>
+</body>
+</html>
